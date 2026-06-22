@@ -75,10 +75,10 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+          title: 'DocsAI Hub',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+                  alt: 'DocsAI Hub Logo',
+                  src: 'img/ai-robot.svg',
       },
       items: [
         {
