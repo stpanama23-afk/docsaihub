@@ -28,3 +28,15 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Голубой фон сайта */
+body {
+  background-color: #e3f2fd;
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+}
+
+/* Для тёмной темы - более тёмно-синий */
+[data-theme='dark'] body {
+  background-color: #1a237e;
+  background: linear-gradient(135deg, #1a237e 0%, #0d47a1 100%);
+}
