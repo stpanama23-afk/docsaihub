@@ -1,0 +1,11 @@
+{
+  "theme.docs.paginator.previous": {
+    "message": "Предыдущая статья"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Следующая статья"
+  },
+  "theme.SearchBar.label": {
+    "message": "Поиск"
+  }
+}

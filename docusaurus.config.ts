@@ -35,6 +35,22 @@ const config: Config = {
     locales: ['en'],
   },
 
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath: '/docs',
+        docsDir: 'docs',
+        language: ['en'],
+        hashed: true,
+        highlightSearchTermsOnTargetPage: true,
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -75,22 +91,20 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-          title: 'DocsAI Hub',
-          logo: {
-                  alt: 'DocsAI Hub Logo',
-                  src: 'img/ai-robot.svg',
-                },
+      title: 'DocsAI Hub',
+      logo: {
+        alt: 'DocsAI Hub Logo',
+        src: 'img/ai-robot.svg',
+      },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
+      {
+          href: 'https://hub.onlanta.ai/register',
+          label: 'Регистрация',
+          position: 'right',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://hub.onlanta.ai/',
+          label: 'Войти',
           position: 'right',
         },
       ],
