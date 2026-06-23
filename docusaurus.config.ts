@@ -76,10 +76,10 @@ const config: Config = {
     },
     navbar: {
           title: 'DocsAI Hub',
-      logo: {
+          logo: {
                   alt: 'DocsAI Hub Logo',
                   src: 'img/ai-robot.svg',
-      },
+                },
       items: [
         {
           type: 'docSidebar',
